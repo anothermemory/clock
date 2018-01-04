@@ -5,6 +5,7 @@
 [![Coveralls github](https://img.shields.io/coveralls/github/anothermemory/clock.svg?style=flat-square)](https://coveralls.io/github/anothermemory/clock)
 [![Release](https://img.shields.io/github/release/anothermemory/clock.svg?style=flat-square)](https://github.com/anothermemory/clock/releases/latest)
 [![license](https://img.shields.io/github/license/anothermemory/clock.svg?style=flat-square)](LICENSE.md)
+[![Codacy grade](https://img.shields.io/codacy/grade/ae74d2f501bc4628ae7008c6f28a98b8.svg?style=flat-square)](https://www.codacy.com/app/anothermemory/clock)
 
 This library contains interface and set of implementations for getting current time. For production usage
 time must be mostly real time. For testing purposes it's often much easier to use mocked time so it will
