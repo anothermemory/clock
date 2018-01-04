@@ -10,6 +10,23 @@ This library contains interface and set of implementations for getting current t
 time must be mostly real time. For testing purposes it's often much easier to use mocked time so it will
 return required time each time.
 
+Table of Contents
+=================
+
+* [Another Memory Clock](#another-memory-clock)
+* [Table of Contents](#table-of-contents)
+  * [Getting Started](#getting-started)
+    * [Prerequisites](#prerequisites)
+    * [Installing](#installing)
+    * [See it in action](#see-it-in-action)
+      * [Mocked clock for testing](#mocked-clock-for-testing)
+      * [Real clock for production](#real-clock-for-production)
+  * [Built With](#built-with)
+  * [Contributing](#contributing)
+  * [Versioning](#versioning)
+  * [Authors](#authors)
+  * [License](#license)
+
 ## Getting Started
 
 ### Prerequisites
@@ -54,7 +71,7 @@ func ExampleMockPartial() {
 }
 ```
 
-#### Real ID for production
+#### Real clock for production
 
 ```go
 package clock_test
