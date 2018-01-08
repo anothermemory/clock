@@ -17,3 +17,4 @@
 vendor/
 coverage.out
 roveralls.coverprofile
+*.iml
