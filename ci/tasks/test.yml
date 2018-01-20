@@ -1,0 +1,18 @@
+---
+platform: linux
+
+inputs:
+- name: git-clock
+  path: gopath/src/github.com/anothermemory/clock
+
+run:
+  path: sh
+  args:
+    - -exc
+    - |
+      export GOPATH=$(pwd)/gopath:${GOPATH} && \
+      cd gopath/src/github.com/anothermemory/clock && \
+      go version && \
+      zb build && \
+      zb lint -f --exclude=/usr/local/go && \
+      go test -v ./...
